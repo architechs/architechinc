@@ -43,6 +43,7 @@
 
 .centered {
 	text-align: center
+	 margin: 0 auto;
 }
 
 .mt {
@@ -70,6 +71,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
+
 }
 
 
@@ -78,22 +80,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: black;
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: white;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
-	background-color: transparent;
+	color: black;
+
 	border-bottom: 2px solid #1abc9c
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: black;
+
 }
 
 /* ==========================================================================
@@ -101,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/img.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -128,11 +131,13 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
+	text-shadow: 8px 4px 11px #000;
 }
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #ffffff;
+
 }
 
 #social {
